@@ -1,0 +1,561 @@
+{
+  "processes": [
+    {
+      "id": "proc-001",
+      "name": "API Manufacturing Process",
+      "description": "Active Pharmaceutical Ingredient production workflow covering synthesis, purification, and quality control",
+      "status": "Pending",
+      "lastUpdatedBy": "System",
+      "lastUpdatedAt": "2025-11-29T08:00:00Z",
+      "comments": [],
+      "subprocesses": [
+        {
+          "id": "subproc-001-001",
+          "name": "Raw Material Reception",
+          "description": "Receiving, sampling, and quarantine of incoming raw materials",
+          "status": "Pending",
+          "lastUpdatedBy": "System",
+          "lastUpdatedAt": "2025-11-29T08:30:00Z",
+          "comments": [],
+          "tasks": [
+            {
+              "id": "task-001-001-001",
+              "name": "Verify Material Certificates",
+              "description": "Check CoA (Certificate of Analysis) against specifications",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T09:00:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-001-001-002",
+              "name": "Conduct Identity Testing",
+              "description": "Perform FTIR spectroscopy for material identification",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T09:15:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-001-001-003",
+              "name": "Label and Quarantine",
+              "description": "Apply quarantine labels and store in designated area",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T09:30:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-001-001-004",
+              "name": "Update Inventory System",
+              "description": "Record material receipt in ERP and QMS",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T09:45:00Z",
+              "comments": []
+            }
+          ]
+        },
+        {
+          "id": "subproc-001-002",
+          "name": "Chemical Synthesis",
+          "description": "Multi-step chemical synthesis of the active pharmaceutical ingredient",
+          "status": "Pending",
+          "lastUpdatedBy": "System",
+          "lastUpdatedAt": "2025-11-29T10:00:00Z",
+          "comments": [],
+          "tasks": [
+            {
+              "id": "task-001-002-001",
+              "name": "Prepare Reaction Vessel",
+              "description": "Clean, sterilize, and prepare reactor according to batch record",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T10:15:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-001-002-002",
+              "name": "Charge Starting Materials",
+              "description": "Add reagents in specified sequence under inert atmosphere",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T10:30:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-001-002-003",
+              "name": "Monitor Reaction Progress",
+              "description": "TLC and HPLC monitoring at defined intervals",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T11:00:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-001-002-004",
+              "name": "Quench and Workup",
+              "description": "Safely quench reaction and perform aqueous workup",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T11:30:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-001-002-005",
+              "name": "Document Batch Record",
+              "description": "Complete all synthesis documentation and deviations",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T12:00:00Z",
+              "comments": []
+            }
+          ]
+        },
+        {
+          "id": "subproc-001-003",
+          "name": "Purification and Isolation",
+          "description": "Crystallization, filtration, and drying of the API",
+          "status": "Pending",
+          "lastUpdatedBy": "System",
+          "lastUpdatedAt": "2025-11-29T12:30:00Z",
+          "comments": [],
+          "tasks": [
+            {
+              "id": "task-001-003-001",
+              "name": "Crystallization Setup",
+              "description": "Prepare solvent system and initiate controlled crystallization",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T13:00:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-001-003-002",
+              "name": "Filtration and Washing",
+              "description": "Filter crystals and wash with specified solvents",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T13:30:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-001-003-003",
+              "name": "Drying Process",
+              "description": "Vacuum dry product at controlled temperature",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T14:00:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-001-003-004",
+              "name": "Yield Calculation",
+              "description": "Weigh final product and calculate yield percentage",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T14:30:00Z",
+              "comments": []
+            }
+          ]
+        },
+        {
+          "id": "subproc-001-004",
+          "name": "Quality Control Testing",
+          "description": "Comprehensive analytical testing to confirm API specifications",
+          "status": "Pending",
+          "lastUpdatedBy": "System",
+          "lastUpdatedAt": "2025-11-29T15:00:00Z",
+          "comments": [],
+          "tasks": [
+            {
+              "id": "task-001-004-001",
+              "name": "HPLC Purity Analysis",
+              "description": "Determine purity and related substances by HPLC",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T15:15:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-001-004-002",
+              "name": "NMR Spectroscopy",
+              "description": "Confirm structure by 1H and 13C NMR",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T15:45:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-001-004-003",
+              "name": "Residual Solvents",
+              "description": "GC analysis for residual solvents per ICH Q3C",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T16:15:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-001-004-004",
+              "name": "Heavy Metals Testing",
+              "description": "ICP-MS analysis for heavy metals contamination",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T16:45:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-001-004-005",
+              "name": "Generate CoA",
+              "description": "Compile test results and issue Certificate of Analysis",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T17:00:00Z",
+              "comments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proc-002",
+      "name": "Sterile Fill-Finish Operations",
+      "description": "Aseptic processing workflow for sterile injectable drug products",
+      "status": "Pending",
+      "lastUpdatedBy": "System",
+      "lastUpdatedAt": "2025-11-29T08:00:00Z",
+      "comments": [],
+      "subprocesses": [
+        {
+          "id": "subproc-002-001",
+          "name": "Formulation Preparation",
+          "description": "Prepare sterile bulk solution with API and excipients",
+          "status": "Pending",
+          "lastUpdatedBy": "System",
+          "lastUpdatedAt": "2025-11-29T08:30:00Z",
+          "comments": [],
+          "tasks": [
+            {
+              "id": "task-002-001-001",
+              "name": "WFI System Qualification",
+              "description": "Verify Water for Injection system parameters and bioburden",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T09:00:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-002-001-002",
+              "name": "Compounding in Grade A",
+              "description": "Compound formulation under Grade A laminar flow",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T09:30:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-002-001-003",
+              "name": "pH Adjustment",
+              "description": "Adjust pH to target range with validated buffers",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T10:00:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-002-001-004",
+              "name": "In-Process Testing",
+              "description": "Test pH, osmolality, assay, and bioburden",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T10:30:00Z",
+              "comments": []
+            }
+          ]
+        },
+        {
+          "id": "subproc-002-002",
+          "name": "Sterile Filtration",
+          "description": "0.22μm sterile filtration of bulk solution",
+          "status": "Pending",
+          "lastUpdatedBy": "System",
+          "lastUpdatedAt": "2025-11-29T11:00:00Z",
+          "comments": [],
+          "tasks": [
+            {
+              "id": "task-002-002-001",
+              "name": "Filter Integrity Test (Pre)",
+              "description": "Bubble point test on sterilizing-grade filter",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T11:15:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-002-002-002",
+              "name": "Filtration Process",
+              "description": "Filter bulk through validated 0.22μm membrane",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T11:45:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-002-002-003",
+              "name": "Filter Integrity Test (Post)",
+              "description": "Post-use bubble point test for filter validation",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T12:15:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-002-002-004",
+              "name": "Sterility Sample Collection",
+              "description": "Collect samples for sterility testing per USP <71>",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T12:30:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-002-002-005",
+              "name": "Endotoxin Testing",
+              "description": "LAL test for bacterial endotoxins",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T13:00:00Z",
+              "comments": []
+            }
+          ]
+        },
+        {
+          "id": "subproc-002-003",
+          "name": "Aseptic Filling",
+          "description": "Automated filling of sterile vials in Grade A environment",
+          "status": "Pending",
+          "lastUpdatedBy": "System",
+          "lastUpdatedAt": "2025-11-29T13:30:00Z",
+          "comments": [],
+          "tasks": [
+            {
+              "id": "task-002-003-001",
+              "name": "Environmental Monitoring",
+              "description": "Verify Grade A/B classification and particulate counts",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T14:00:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-002-003-002",
+              "name": "Equipment Sterilization",
+              "description": "VHP sterilization cycle of filling line",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T14:30:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-002-003-003",
+              "name": "Filling Operation",
+              "description": "Automated filling and stoppering of vials",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T15:00:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-002-003-004",
+              "name": "Visual Inspection",
+              "description": "100% visual inspection for particulates and defects",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T15:30:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-002-003-005",
+              "name": "Media Fill Validation",
+              "description": "Document concurrent media fill results",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T16:00:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-002-003-006",
+              "name": "Batch Reconciliation",
+              "description": "Reconcile vials filled vs. bulk volume used",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T16:30:00Z",
+              "comments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proc-003",
+      "name": "Solid Dosage Manufacturing",
+      "description": "Tablet production workflow from blending to packaging",
+      "status": "Pending",
+      "lastUpdatedBy": "System",
+      "lastUpdatedAt": "2025-11-29T08:00:00Z",
+      "comments": [],
+      "subprocesses": [
+        {
+          "id": "subproc-003-001",
+          "name": "Powder Blending",
+          "description": "Homogeneous mixing of API with excipients",
+          "status": "Pending",
+          "lastUpdatedBy": "System",
+          "lastUpdatedAt": "2025-11-29T08:30:00Z",
+          "comments": [],
+          "tasks": [
+            {
+              "id": "task-003-001-001",
+              "name": "Pre-Blend Preparation",
+              "description": "Mill and sieve API for uniform particle size",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T09:00:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-003-001-002",
+              "name": "Geometric Dilution",
+              "description": "Mix API with portion of excipients",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T09:30:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-003-001-003",
+              "name": "V-Blender Mixing",
+              "description": "Blend in V-blender for specified time and RPM",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T10:00:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-003-001-004",
+              "name": "Blend Uniformity Testing",
+              "description": "Sample and test blend uniformity per FDA guidance",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T10:30:00Z",
+              "comments": []
+            }
+          ]
+        },
+        {
+          "id": "subproc-003-002",
+          "name": "Tablet Compression",
+          "description": "Forming tablets via rotary tablet press",
+          "status": "Pending",
+          "lastUpdatedBy": "System",
+          "lastUpdatedAt": "2025-11-29T11:00:00Z",
+          "comments": [],
+          "tasks": [
+            {
+              "id": "task-003-002-001",
+              "name": "Press Setup and IQ",
+              "description": "Set up tooling, adjust compression force and depth",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T11:15:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-003-002-002",
+              "name": "Tablet Production",
+              "description": "Run production batch through validated parameters",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T11:45:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-003-002-003",
+              "name": "In-Process Controls",
+              "description": "Monitor weight, thickness, hardness, friability",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T12:15:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-003-002-004",
+              "name": "Metal Detection",
+              "description": "Pass tablets through inline metal detector",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T12:45:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-003-002-005",
+              "name": "Collect Stability Samples",
+              "description": "Pull samples for long-term stability studies",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T13:00:00Z",
+              "comments": []
+            }
+          ]
+        },
+        {
+          "id": "subproc-003-003",
+          "name": "Film Coating",
+          "description": "Application of polymer film coating for appearance and stability",
+          "status": "Pending",
+          "lastUpdatedBy": "System",
+          "lastUpdatedAt": "2025-11-29T13:30:00Z",
+          "comments": [],
+          "tasks": [
+            {
+              "id": "task-003-003-001",
+              "name": "Prepare Coating Suspension",
+              "description": "Prepare HPMC-based coating dispersion",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T14:00:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-003-003-002",
+              "name": "Coating Process",
+              "description": "Apply coating in perforated pan coater",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T14:30:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-003-003-003",
+              "name": "Drying Cycle",
+              "description": "Complete drying to target moisture content",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T15:00:00Z",
+              "comments": []
+            },
+            {
+              "id": "task-003-003-004",
+              "name": "Coating Quality Check",
+              "description": "Inspect for uniformity, color, and defects",
+              "status": "Pending",
+              "lastUpdatedBy": "System",
+              "lastUpdatedAt": "2025-11-29T15:30:00Z",
+              "comments": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
