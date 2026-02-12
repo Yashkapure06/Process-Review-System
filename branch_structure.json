@@ -1,0 +1,15 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "main",
+    "vercel/react-server-components-cve-vu-nv1qle"
+  ],
+  "parent": {
+    "main": null,
+    "vercel/react-server-components-cve-vu-nv1qle": "main"
+  },
+  "order": [
+    "main",
+    "vercel/react-server-components-cve-vu-nv1qle"
+  ]
+}
